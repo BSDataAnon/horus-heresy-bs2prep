@@ -1,2 +1,2 @@
-# horys-heresy-bs2prep
+# horus-heresy-bs2prep
 ZZ experimental Horus Heresy prep work for BS2
