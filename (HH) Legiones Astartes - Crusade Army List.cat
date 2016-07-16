@@ -8761,7 +8761,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="57.0"/>
+        <cost name="pts" costTypeId="points" value="58.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc96f9e9-632a-8e4d-c4ac-5c8c5b93101b" name="Legion Attack Bike Squadron" book="HH:LACAL" page="40" hidden="false" collective="false" categoryEntryId="466173742041747461636b23232344415441232323" type="upgrade">
