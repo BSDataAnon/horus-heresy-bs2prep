@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/dataSchema" battleScribeVersion="1.16" id="90aa-c2c8-ffb0-496e" revision="5" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="29" name="Imperialis Militia and Cults Army List" authorName="Millicant" book="HH5: Tempest">
+<?xml version="1.0" encoding="UTF-8"?><catalogue battleScribeVersion="1.16" id="90aa-c2c8-ffb0-496e" revision="5" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="29" name="Imperialis Militia and Cults Army List" authorName="Millicant" book="HH5: Tempest">
 <selectionEntries>
 <selectionEntry id="c170-a157-c7c0-c7a7" name="Auxilia Baneblade Super-heavy Battle Tank" type="model" collective="false" hidden="false" book="HH4: Conquest" page="284" categoryEntryId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f">
 <costs>

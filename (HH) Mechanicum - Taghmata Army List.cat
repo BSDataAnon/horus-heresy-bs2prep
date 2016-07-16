@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf03-f607-41dc-7545" name="Mechanicum: Taghmata Army List" book="Taghmata Army List" revision="21" battleScribeVersion="2.00" authorName="Millicant and CapitalDot" authorContact="Submit &quot;New Issue&quot; on website" authorUrl="https://github.com/BSData/horus-heresy/issues" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf03-f607-41dc-7545" name="Mechanicum: Taghmata Army List" book="Taghmata Army List" revision="22" battleScribeVersion="2.00" authorName="Millicant and CapitalDot" authorContact="Submit &quot;New Issue&quot; on website" authorUrl="https://github.com/BSData/horus-heresy/issues" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
-  <forceEntries/>
   <profileTypes/>
+  <forceEntries/>
   <selectionEntries>
     <selectionEntry id="cb78-d695-f736-f672" name="Adsecularis Covenant" book="Taghmata Army List" page="37" hidden="false" collective="false" categoryEntryId="54726f6f707323232344415441232323" type="unit">
       <profiles/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" name="Legiones Astartes: Crusade Army List" book="Forgeworld Horus Heresy Series" revision="99" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/dataSchema">
+<catalogue id="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" name="Legiones Astartes: Crusade Army List" book="Forgeworld Horus Heresy Series" revision="101" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8438,7 +8438,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1fabd0b3-02b0-e5c7-5c88-2df7ed158115" name="Melta Bombs" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -8761,7 +8761,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="pts" costTypeId="points" value="57.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc96f9e9-632a-8e4d-c4ac-5c8c5b93101b" name="Legion Attack Bike Squadron" book="HH:LACAL" page="40" hidden="false" collective="false" categoryEntryId="466173742041747461636b23232344415441232323" type="upgrade">
@@ -9118,7 +9118,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e615604-ca54-2d1c-a226-ac6382947506" name="Melta Bombs" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -9868,7 +9868,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eaa143bc-3040-7031-faaf-314871d4811a" name="Legion Caestus Assault Ram" book="HH:LACAL" page="59" hidden="false" collective="false" categoryEntryId="486561767920537570706f727423232344415441232323" type="model">
@@ -10586,7 +10586,14 @@
                       <modifiers/>
                     </rule>
                   </rules>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="f5ab-56c0-da32-da36" name="New InfoLink" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
@@ -10654,7 +10661,7 @@
                   </rules>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="minInRoster" value="1.0">
+                    <modifier type="set" field="minInRoster" value="1">
                       <repeats/>
                       <conditions>
                         <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d96b-4191-ec28-0485" type="equalTo"/>
@@ -11003,7 +11010,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="35.0"/>
+                    <cost name="pts" costTypeId="points" value="45.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0df0a0f1-9ddf-f57b-cada-26dce57443ec" name="Vigilator" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -16625,7 +16632,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="505.0"/>
+        <cost name="pts" costTypeId="points" value="530.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2e58b26-222b-f57d-6068-0fcf62408a57" name="Legion Fellblade" book="HH1: Betrayal" page="224" hidden="false" collective="false" categoryEntryId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" type="unit">
@@ -17755,7 +17762,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="75.0"/>
+            <cost name="pts" costTypeId="points" value="55.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -18452,7 +18459,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
+            <cost name="pts" costTypeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -23462,7 +23469,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a43ab18-4bef-179b-8619-09cf049d00c0" name="Legion Stormblade" book="HH:LACAL" page="65" hidden="false" collective="false" categoryEntryId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" type="upgrade">
@@ -24468,7 +24475,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="2.0">
+                <modifier type="increment" field="points" value="2">
                   <repeats>
                     <repeat field="selections" scope="da40e015-a22c-ecc4-c9b8-0add9ff5d50f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdc44304-100a-25d6-01d5-4be1eb3b32b7" repeats="1"/>
                   </repeats>
@@ -24772,7 +24779,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d744f750-8ad0-c8f0-fb8d-81608f361be3" name="Legion Tactical Support Squad" book="HH:LACAL" page="33" hidden="false" collective="false" categoryEntryId="54726f6f707323232344415441232323" type="upgrade">
@@ -25151,6 +25158,29 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="a64c-5266-1c43-79da" name="Take an additional Chainsword or Combat Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="points" value="2">
+              <repeats>
+                <repeat field="selections" scope="d744f750-8ad0-c8f0-fb8d-81608f361be3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70f738ac-f22d-9e10-c395-781534c8cb2a" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9769-320f-9a42-7807" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="168e4d10-469b-2f94-cbe0-955293714837" name="Entire Squad may exchange their Flamers for:" hidden="false" collective="false">
@@ -25173,22 +25203,7 @@
                   <modifiers/>
                 </infoLink>
               </infoLinks>
-              <modifiers>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats>
-                    <repeat field="selections" scope="d744f750-8ad0-c8f0-fb8d-81608f361be3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70f738ac-f22d-9e10-c395-781534c8cb2a" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="d744f750-8ad0-c8f0-fb8d-81608f361be3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c3cf3a6-8d0b-1edd-fffa-3b99c5f1c9e6" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -25319,22 +25334,7 @@
                   <modifiers/>
                 </infoLink>
               </infoLinks>
-              <modifiers>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats>
-                    <repeat field="selections" scope="d744f750-8ad0-c8f0-fb8d-81608f361be3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="70f738ac-f22d-9e10-c395-781534c8cb2a" repeats="1"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="d744f750-8ad0-c8f0-fb8d-81608f361be3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c3cf3a6-8d0b-1edd-fffa-3b99c5f1c9e6" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -30821,7 +30821,7 @@ Ignores Cover special rule.</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="pts" costTypeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -31756,7 +31756,7 @@ Ignores Cover special rule.</description>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="45.0"/>
+            <cost name="pts" costTypeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -33400,7 +33400,7 @@ Ignores Cover special rule.</description>
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="350.0"/>
+                <cost name="pts" costTypeId="points" value="395.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="be4b5da6-bc38-14e5-d575-e6b4f795deef" name="Legion Malcador Assault Tank" book="HH:LACAL" page="69" hidden="false" collective="false" categoryEntryId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" type="unit">
@@ -36557,7 +36557,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="pts" costTypeId="points" value="115.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="927bb13b-06a2-ab05-743f-74b859c1eee2" name="Artificer Weapons" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -45722,7 +45722,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="pts" costTypeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8cc05fec-8274-bea3-5d54-d249b36a3209" name="Land Raider Proteus" book="HH:LACAL" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -46111,7 +46111,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="pts" costTypeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c878373-5ea8-3773-4cd6-17492e2f6a97" name="Lascutter" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -46286,7 +46286,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cb131561-fcb0-4264-1a6f-16e60bfc847a" name="Legion Space Marine Chosen" book="HH1: Betrayal" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="cb131561-fcb0-4264-1a6f-16e60bfc847a" name="Legion Space Marine Chosen" book="" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="9c8eeacb-b96c-1d57-96c3-7c7a10e952b3" name="Legion Space Marine Chosen" book="HH:LACAL" page="18" hidden="false" profileTypeId="556e697423232344415441232323">
               <profiles/>
@@ -46318,7 +46318,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -46818,7 +46818,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df4ceff0-6bd4-1cb9-b101-bef9ec61394e" name="Legion Dreadnought Drop Pod" book="HH:LACAL" page="37" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -46907,7 +46907,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dac9d882-e01e-8704-fefb-0a155e3de0dd" name="Legion Dreadnought Talon" book="HH:LACAL" page="25" hidden="false" collective="false" categoryEntryId="456c6974657323232344415441232323" type="upgrade">
@@ -47546,9 +47546,16 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
                         <conditionGroup type="or">
                           <conditions>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822d-fa53-3053-1d7d" type="equalTo"/>
-                            <condition field="selections" scope="dac9d882-e01e-8704-fefb-0a155e3de0dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bb09ddd-6e04-eb0b-9755-526b119c3870" type="greaterThan"/>
                           </conditions>
-                          <conditionGroups/>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="dac9d882-e01e-8704-fefb-0a155e3de0dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bb09ddd-6e04-eb0b-9755-526b119c3870" type="greaterThan"/>
+                                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups/>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
@@ -49178,7 +49185,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="260.0"/>
+        <cost name="pts" costTypeId="points" value="235.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="517b-d4ca-d6ee-ef8c" name="Legion Outrider Squad" book="HH:LACAL" page="39" hidden="false" collective="false" categoryEntryId="466173742041747461636b23232344415441232323" type="unit">
@@ -50223,7 +50230,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="35.0"/>
+                <cost name="pts" costTypeId="points" value="55.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b838-9e73-21df-5faf" name="Heavy Conversion Beamer" book="HH1: Betrayal" page="230" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -50715,7 +50722,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e7b-f0a4-31c6-03d6" name="Legion Strike Leader" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -51275,7 +51282,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a331-2e97-bd94-4103" name="Legion Sicaran Battle Tank" book="HH:LACAL" page="61" hidden="false" collective="false" categoryEntryId="486561767920537570706f727423232344415441232323" type="unit">
@@ -51512,7 +51519,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="pts" costTypeId="points" value="165.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bce74018-92f3-2081-4079-a5eab9d107b2" name="Legion Spartan Assault Tank" book="HH:LACAL" page="58" hidden="false" collective="false" categoryEntryId="486561767920537570706f727423232344415441232323" type="model">
@@ -51724,7 +51731,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="45.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d34bd767-53e2-de8c-b256-2425abc79b8c" name="Dozer Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -51944,7 +51951,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="295.0"/>
+        <cost name="pts" costTypeId="points" value="305.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd2ad8ef-8033-0a45-7ee5-ebcf07f1f117" name="Legion Storm Eagle Assault Gunship" book="HH:LACAL" page="47" hidden="false" collective="false" categoryEntryId="466173742041747461636b23232344415441232323" type="unit">
@@ -52280,7 +52287,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6e986467-26ca-ed6b-c71c-a5e855b91806" name="Legion Standard Bearer" book="HH1: Betrayal" page="192" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -52904,7 +52911,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bd8064e-91eb-24e0-b07f-555fceb5f674" name="Legion Terminator Squad" book="HH:LACAL" page="22" hidden="false" collective="false" categoryEntryId="456c6974657323232344415441232323" type="unit">
@@ -54518,7 +54525,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -55212,7 +55219,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfa29302-44f6-78de-d3d0-505017188013" name="Lernaen Terminator Squad" book="HH:LAICL" page="91" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -56688,13 +56695,6 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="increment" field="maxInRoster" value="1">
-          <repeats>
-            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
         <modifier type="set" field="maxInRoster" value="1">
           <repeats/>
           <conditions/>
@@ -56707,6 +56707,13 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="maxInRoster" value="1">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
@@ -60639,7 +60646,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="64d925e2-9c6b-1a84-dc25-1b729eac9566" name="Two Kraken penetrator heavy missiles" book="HH:LACAL" page="43" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -60667,7 +60674,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a039e01-e570-b463-6a03-1cacb922679f" name="Phosphex bomb cluster" book="HH:LACAL" page="43" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -60716,7 +60723,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d744728f-a9ff-0108-b97a-bf9100346ba3" name="Two Electromagnetic storm charges" book="HH:LACAL" page="43" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -60744,7 +60751,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
