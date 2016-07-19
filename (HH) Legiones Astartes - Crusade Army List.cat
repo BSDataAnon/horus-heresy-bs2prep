@@ -14772,7 +14772,7 @@
                           <repeats/>
                           <conditions>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -14804,7 +14804,7 @@
                           <conditions>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822d-fa53-3053-1d7d" type="equalTo"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -16147,7 +16147,7 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -16178,7 +16178,7 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -19281,7 +19281,7 @@
                           <repeats/>
                           <conditions>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -19313,7 +19313,7 @@
                           <conditions>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822d-fa53-3053-1d7d" type="equalTo"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                           </conditions>
                           <conditionGroups/>
                         </modifier>
@@ -23259,7 +23259,7 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -23296,7 +23296,7 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -24593,7 +24593,7 @@
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a00-5a4c-b9e4-2ee5" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ca2-a797-1147-a7db" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -24632,7 +24632,7 @@
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ca2-a797-1147-a7db" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -35907,7 +35907,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -42130,14 +42130,14 @@ In addtion, all units with the Legiones Astartes (Emperor&apos;s Children) rule 
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="minSelections" value="1.0">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -46142,36 +46142,6 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfe0-fcb4-aa9e-da71" name="Last of the Serrated Sun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c644-8b9c-8379-b3ac" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b2e-28fb-b5bc-1e04" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f2b4-83cd-492c-d495" name="Legatine Axe" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -46402,7 +46372,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -46434,7 +46404,7 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822d-fa53-3053-1d7d" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -51035,7 +51005,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a00-5a4c-b9e4-2ee5" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -51067,7 +51037,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822d-fa53-3053-1d7d" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -54032,81 +54002,18 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
     <selectionEntry id="5e9c6a5f-b807-27ae-8a84-90129437976b" name="Legion Veteran Tactical Squad" book="HH:LACAL" page="20" hidden="false" collective="false" categoryEntryId="456c6974657323232344415441232323" type="unit">
       <profiles/>
       <rules>
-        <rule id="4a499844-30b4-d34f-f4b6-0d423502748f" name="Veteran Tactics" book="HH1: Betrayal" page="194" hidden="false">
+        <rule id="4a499844-30b4-d34f-f4b6-0d423502748f" name="Veteran Tactics" book="LA:AOD" page="28" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </rule>
-        <rule id="d140ccdf-c6a9-b25d-077c-a338fb40cb9f" name="Fearless" page="0" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8806d35f-ad89-dd17-d256-67c45f01239a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="5049caca-17b1-6119-5748-5c13e5ec9510" name="Furious Charge" page="0" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="68c159ae-f016-6b23-457b-3d72ece9d46e" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="ca98394e-a0ae-829c-73a1-15ed7ed45496" name="Outflank" page="0" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc0a626c-e811-0504-571b-07b7f0ec572f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="1f52de69-0e21-d007-d7b8-75440225c9e1" name="Sniper" page="0" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23140036-b01b-714d-dc35-de2600c339ce" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="e7cd5be1-7c86-54b8-8eeb-72468906c115" name="Tank Hunters" page="0" hidden="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff77304c-4936-0647-0604-c4aa3c568f6d" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <description>Before the game begins, you must select one of the following special abilities for the squad:
+
+- Resolve: The unit gains the Stubborn special rule.
+- Weaponmasters: The unit gains +1 Weapon Skill.
+- Machine Killers: The unit gains +1 on their Armour Penetration rolls.
+- Marksmen: The unit gains the Outflank and Sniper rules.
+- Xenobane: The unit may re-roll To Wound rolls against Monstrous Creatures and Gargantuan Creatures.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -54540,9 +54447,47 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8806d35f-ad89-dd17-d256-67c45f01239a" name="Fearless" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="8806d35f-ad89-dd17-d256-67c45f01239a" name="Resolve" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
-              <rules/>
+              <rules>
+                <rule id="abd9-97c2-304c-2ea8" name="Resolve" book="LA:AOD" page="28" hidden="true">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The unit gains the Stubborn special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="95e7-f50a-0efd-489e" name="New InfoLink" hidden="false" targetId="7be5-30af-1a02-0a89" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="23140036-b01b-714d-dc35-de2600c339ce" name="Xenobane" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="fabf-23d6-869a-ef5a" name="Xenobane" book="LA:AOD" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The unit may re-roll To Wound rolls against Monstrous Creatures and Gargantuan Creatures.</description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints>
@@ -54555,9 +54500,17 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="23140036-b01b-714d-dc35-de2600c339ce" name="Sniper" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="68c159ae-f016-6b23-457b-3d72ece9d46e" name="Machine Killers" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
-              <rules/>
+              <rules>
+                <rule id="ef04-7900-ea1b-aead" name="Machine Killers" book="LA:AOD" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The unit gains +1 on their Armour Penetration rolls.</description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints>
@@ -54570,9 +54523,17 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="68c159ae-f016-6b23-457b-3d72ece9d46e" name="Furious Charge" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="dc0a626c-e811-0504-571b-07b7f0ec572f" name="Weaponmasters" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
-              <rules/>
+              <rules>
+                <rule id="bcdd-486b-1f67-fb0b" name="Weaponmasters" book="LA:AOD" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The unit gains +1 Weapon Skill. </description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints>
@@ -54585,25 +54546,31 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dc0a626c-e811-0504-571b-07b7f0ec572f" name="Outflank" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="ff77304c-4936-0647-0604-c4aa3c568f6d" name="Marksmen" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ff77304c-4936-0647-0604-c4aa3c568f6d" name="Tank Hunters" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
+              <rules>
+                <rule id="ad27-a20b-9d8e-9a09" name="Marksmen" book="LA:AOD" page="28" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The unit gains the Outflank and Sniper rules.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="9091-8af3-2af0-f147" name="New InfoLink" hidden="false" targetId="de18-25a0-504b-74be" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f0db-a107-800f-e6e6" name="New InfoLink" hidden="false" targetId="3919-29f5-0c68-3ecb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -54626,12 +54593,12 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <modifiers/>
           <constraints/>
           <selectionEntries>
-            <selectionEntry id="6f009483-29c3-8932-8178-d4a53cb0aba9" name="Power Weapon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="6f009483-29c3-8932-8178-d4a53cb0aba9" name="Combi-weapon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxSelections" value="1.0">
+                <modifier type="increment" field="maxSelections" value="1">
                   <repeats>
                     <repeat field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd02066d-5458-c38d-990a-b6fdad016494" repeats="1"/>
                   </repeats>
@@ -55000,7 +54967,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a00-5a4c-b9e4-2ee5" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ca2-a797-1147-a7db" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -55032,7 +54999,7 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ca2-a797-1147-a7db" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -55178,6 +55145,40 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
               <constraints/>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2860-66a2-6c0e-e4cf" name="Any Veteran may exchange their boltgun for:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries>
+            <selectionEntry id="0b24-121f-95c6-c4f0" name="Power Weapon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="ca40-1a29-9da0-acb0" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd02066d-5458-c38d-990a-b6fdad016494" repeats="1"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca40-1a29-9da0-acb0" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -67603,7 +67604,7 @@ In addition, units of Domitar-Ferrum may be joined by a single Independent Chara
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a00-5a4c-b9e4-2ee5" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -67634,7 +67635,7 @@ In addition, units of Domitar-Ferrum may be joined by a single Independent Chara
               <repeats/>
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c4d-a5af-f886-05cc" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfe0-fcb4-aa9e-da71" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -69426,13 +69427,6 @@ In addition, units of Domitar-Ferrum may be joined by a single Independent Chara
           <constraints/>
         </entryLink>
         <entryLink id="20c0-559c-49a1-501d" hidden="false" targetId="a02e-b15a-8758-d629" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="f029-3759-d70e-19f0" hidden="false" targetId="bfe0-fcb4-aa9e-da71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
