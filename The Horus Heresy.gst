@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="Warhammer 30,000 - The Horus Heresy" book="Forgeworld Horus Heresy Series" revision="35" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="Warhammer 30,000 - The Horus Heresy" book="Forgeworld Horus Heresy Series" revision="36" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -512,10 +512,16 @@
               <repeats>
                 <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9c8f-17f9-f7c0-1324" repeats="1"/>
               </repeats>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="87c1-52be-e2c3-938f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="87c1-52be-e2c3-938f" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faeb-5d3c-974b-cbbb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="increment" field="f007-45ee-a366-021c" value="1">
               <repeats/>
@@ -1175,6 +1181,8 @@
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="99e8-4840-8b4e-eb96" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eeb2-0f36-664b-c803" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e9f-18c0-ee87-3746" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="54e9-7ade-668b-8f8d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1199,15 +1207,25 @@
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e006-2ef7-ee40-afec" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ee0-2537-c498-aba9" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0069-0fb6-dbb8-db18" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3a3-3f65-2193-bc1b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ffd5-f597-a1c4-53e4" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="bf87-3b12-b3b8-6862" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="faeb-5d3c-974b-cbbb" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3092-cbc2-ec57-14c5" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="b124-9412-d5cb-00f0" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf87-3b12-b3b8-6862" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1263,6 +1281,9 @@
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eeb2-0f36-664b-c803" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ee0-2537-c498-aba9" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="88a7-5ac7-c5f5-3632" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d3a3-3f65-2193-bc1b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ffd5-f597-a1c4-53e4" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="54e9-7ade-668b-8f8d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1815,10 +1836,19 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="bbad-aac7-373d-e70d" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faeb-5d3c-974b-cbbb" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df3d-96bb-c348-a2f8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a76c-aa49-dbeb-d739" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bbad-aac7-373d-e70d" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -7186,7 +7216,9 @@ Limitations
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9b8a-d142-2238-4f4b" name="The Sagyar Mazan" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7225,7 +7257,9 @@ Limitations
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3215-720d-8883-ab23" name="Chosen Duty" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7243,7 +7277,9 @@ Limitations
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d172-9733-2cbe-ea1d" name="Sacraficial Offering" book="AODOL" page="104" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7295,7 +7331,9 @@ This Rite of War may only be used in a Traitor army</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d3a3-3f65-2193-bc1b" name="Horror Cult" book="AODOL" page="107" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7339,7 +7377,9 @@ This Rite of War may not be taken by a detachment belonging to the Loyalist fact
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ffd5-f597-a1c4-53e4" name="The Ironfire" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7350,14 +7390,21 @@ This Rite of War may not be taken by a detachment belonging to the Loyalist fact
               <infoLinks/>
               <modifiers/>
               <description>Effects
-Rolling Bombardment: Barrage weapons targeted at any point within 12&quot; of a friendly Iron Warriors unit deviate D6&quot; instead of 2D6&quot;. Having resolved such a barrage attack, leave a counter at the point the blast marker was centred upon. Subsequent barrage attacks targeted at any point that is both within 18&quot; of one of these ‘Ironfire counters’ and within 6&quot; of a friendly Iron Warriors unit do not deviate at all. If a Shooting phase passes without any new Ironfire counters being placed, all such counters in play are removed at the end of the phase.
-Ride the Ironfire:Iron Warriors units within 6&quot; of an Ironfire counter are Fearless.
+• Rolling Bombardment: Barrage weapons targeted at any point within 12&quot; of a friendly Iron Warriors unit deviate D6” instead of 2D6&quot;. Having resolved such a barrage attack, leave a counter at the point the blast marker was centered upon. Subsequent barrage attacks targeted at any point that is both within 18&quot; of one of these ‘Ironfire counters’ and within 6&quot; of a friendly Iron Warriors unit do not deviate at all. If a Shooting phase passes without any new Ironfire counters being placed, all such counters in play are removed at the end of the phase.
+• Ride the Ironfire: Iron Warriors units within 6&quot; of an Ironfire counter are Fearless.
 Limitations
-In a mission where one side is the Attacker and the other the Defender, the side using this Rite of War must always be the Attacker.
-Detachments using this Rite of War may not take a Fortifications Detachment or a Space Marine Allied Detachment.</description>
+• In a mission where one side is the Attacker and the other the Defender, the side using this Rite of War must always be the Attacker.
+• Detachments using this Rite of War may not take a Fortifications Detachment or a Space Marine Allied Detachment.</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="667d-ee9a-33d7-cd9f" name="New InfoLink" hidden="false" targetId="dc70-e199-5525-e78c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
@@ -7365,6 +7412,20 @@ Detachments using this Rite of War may not take a Fortifications Detachment or a
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="32d3-d798-1520-7701" type="equalTo"/>
               </conditions>
               <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9fd-8e3f-eaa7-b788" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b8b4-8004-74d8-0838" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fc71-c60e-a448-4de1" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -7374,7 +7435,9 @@ Detachments using this Rite of War may not take a Fortifications Detachment or a
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8e9f-18c0-ee87-3746" name="Headhunter Leviathal" book="AODOL" page="108" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7385,13 +7448,13 @@ Detachments using this Rite of War may not take a Fortifications Detachment or a
               <infoLinks/>
               <modifiers/>
               <description>Effects
-Headhunter Elite: A detachment using this Rite of War must take Headhunter Kill Teams as their compulsory Troops choices, and may take Headhunter Kill Teams as additional Troops choices.
-Sudden Strike:If your army’s Primary Detachment is using this Rite of War, you may re-roll the dice to see who gets the first turn.
-False Flags: Any enemy unit that declares a ranged attack against an Alpha Legion unit in the first Game Turn must first pass a Leadership test, unless it has itself been fired upon by an Alpha Legion unit that turn. If the test is passed, the unit may fire as normal, but if failed, it may not fire at all in that Shooting phase. Overwatch fire is unaffected.
+• Headhunter Elite: A detachment using this Rite of War must take Headhunter Kill Teams as their compulsory Troops choices, and may take Headhunter Kill Teams as additional Troops choices.
+• Sudden Strike: If your army’s Primary Detachment is using this Rite of War, you may re-roll the dice to see who gets the first turn.
+• False Flags: Any enemy unit that declares a ranged attack against an Alpha Legion unit in the first Game Turn must first pass a Leadership test, unless it has itself been fired upon by an Alpha Legion unit that turn. If the test is passed, the unit may fire as normal, hut if failed, it may not fire at all in that Shooting Phase. Overwatch fire is unaffected.
 Limitations
-The Alpha Legion must kill the enemy Warlord by the end of the game – if they do not, their opponent earns an additional D3 Victory points at the end of the game.
-Any vehicles in the Alpha Legion army must begin the game held in Reserve.
-Detachments using this Rite of War may not take an Allied Detachment (they can’t afford to leave witnesses!).</description>
+• The Alpha Legion must kill the enemy Warlord by the end of the game - if they do not, their opponent earns an additional D3 Victory points at the start of the game.
+• Any vehicles in the Alpha Legion army must begin the game held in Reserve.
+• Detachments using this Rite of War may not take an Allied Detachment (they can’t afford to leave witnesses!).</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -7411,7 +7474,9 @@ Detachments using this Rite of War may not take an Allied Detachment (they can�
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="54e9-7ade-668b-8f8d" name="Hammerfall Strikeforce" book="AODOL" page="109" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7422,12 +7487,12 @@ Detachments using this Rite of War may not take an Allied Detachment (they can�
               <infoLinks/>
               <modifiers/>
               <description>Effects
-Landing Force:Phalanx Warder Squads may be taken as Troops choices in a detachment using this Rite of War.
-Teleport Array:Teleport transponders may be taken by any Infantry unit with the Legiones Astartes (Imperial Fists) special rule at +15 points for a squad and +10 points for an Independent Character.
-Blinding Luminescence: Units deploying by Deep Strike via teleportation gain the Shrouded special rule from the moment they are placed on the table until the beginning of their next player turn. In addition, every enemy unit within 12&quot; and line of sight of the Deep Striking unit must take a Blind test at the end of the phase.
+• Landing Force: Phalanx Warder Squads may be taken as Troops choices in a detachment using this Rite of War.
+• Teleport Array: Teleport transponders may be taken by any Infantry unit with the Legiones Astartes (Imperial Fists) special rule at +15 points for a squad and +10 points for an Independent Character.
+• Blinding Luminescence: Units deploying by Deep Strike via teleportation gain the Shrouded special rule from the moment they are placed on the table until the beginning of their next player turn. In addition, every enemy unit within 12&quot; and line of sight of the Deep Striking unit must take a Blind test at the end of the phase.
 Limitations
-Any vehicles taken in the army must begin the game held in Reserve.
-The army may not include a Fortifications Detachment or an Allied Detachment</description>
+• Any vehicles taken in the army must begin the game held in Reserve.
+• The army may not include a Fortifications Detachment or an Allied Detachment.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -7447,7 +7512,9 @@ The army may not include a Fortifications Detachment or an Allied Detachment</de
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="faeb-5d3c-974b-cbbb" name="Vigil Opertii Mission" book="AODOL" page="109" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7458,22 +7525,36 @@ The army may not include a Fortifications Detachment or an Allied Detachment</de
               <infoLinks/>
               <modifiers/>
               <description>Effects
-Vigil Auxilia: All infantry units in the Allied Detachment in this army have the Infiltrators special rule.
-Sacred Duty:All infantry units in the Allied Detachment have the Implacable Advance special rule and therefore count as scoring units regardless of their battlefield role.
-Overseers: Legion Recon squads lose the Support Squad special rule and may therefore be taken as a compulsory Troops choices.
+• Vigil Auxilia: All infantry units in the Allied Detachment in this army have the Infiltrators special rule.
+• Sacred Duty. All infantry units in the Allied Detachment have the Implacable Advance special rule and therefore count as scoring units regardless of their battlefield role.
+• Overseers: Legion Recon squads lose the Support Squad special rule and may therefore be taken as a compulsory Troops choices.
 Limitations
-The army must include an Allied Detachment drawn from the Loyalist Imperialis Militia and Warp Cult army list, and this must take the Gene-crafted and Warrior Elite Provenances.
-The Allied Detachment may not include Inducted Levy Squads.
-This Rite of War may only be used by an army belonging to the Loyalist faction.
-The Primary Detachment must include a Legion Vigilator.</description>
+• The army must include an Allied Detachment drawn from the Loyalist Imperialis Militia and Warp Cult army list, and this must take the Gene-crafted and Warrior Elite Provenances.
+• The Allied Detachment may not include Inducted Levy Squads.
+• This Rite of War may only be used b y an army belonging to the Loyalist faction.
+• The Primary Detachment must Include a Legion Vigilator.</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c3d4-aecd-0f8f-3d7b" name="New InfoLink" hidden="false" targetId="5ecb-551d-0f68-3a79" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="80e8-6449-416a-55a3" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80e8-6449-416a-55a3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7485,7 +7566,9 @@ The Primary Detachment must include a Legion Vigilator.</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e792-b6c2-8819-37b8" name="Company of Bitter Iron" book="AODOL" page="110" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7528,7 +7611,9 @@ The army may not include Ferrus Manus</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="03fd-d985-13e2-f4eb" name="Liberation Force" book="AODOL" page="110" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7571,7 +7656,9 @@ This Rite of War may only be used by a detachment belonging to the Loyalist fact
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a828-f4be-8ac2-9956" name="The Awakening Fire" book="AODOL" page="111" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7601,7 +7688,9 @@ The army may not make use of a Fortification Detachment or an Allied Detachment.
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -9884,6 +9973,13 @@ Against vehicles, shooting attacks from weapons and models with the Sniper speci
       <infoLinks/>
       <modifiers/>
       <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
+    </rule>
+    <rule id="5ecb-551d-0f68-3a79" name="Implacable Advance" book="LA:AOD" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>These units are used to assail the most heavily defended objectives and secure them for the advance of allied forces. They are always counted as scoring units in any mission where Troops are also counted as scoring units</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
