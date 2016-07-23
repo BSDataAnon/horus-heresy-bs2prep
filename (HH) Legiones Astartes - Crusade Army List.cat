@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" name="Legiones Astartes: Crusade Army List" book="Forgeworld Horus Heresy Series" revision="102" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" name="Legiones Astartes: Crusade Army List" book="Forgeworld Horus Heresy Series" revision="103" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7964,7 +7964,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -9039,7 +9039,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -10612,7 +10612,7 @@
                     <modifier type="set" field="minInForce" value="1.0">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be06-0eed-0241-69be" type="atLeast"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a828-f4be-8ac2-9956" type="atLeast"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -11083,10 +11083,10 @@
                       </conditions>
                       <conditionGroups/>
                     </modifier>
-                    <modifier type="set" field="minInForce" value="1.0">
+                    <modifier type="set" field="minInForce" value="1">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7148-f03a-8120-83a5" type="atLeast"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="faeb-5d3c-974b-cbbb" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -12165,7 +12165,7 @@
             <modifier type="set" field="minSelections" value="1.0">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -12183,7 +12183,7 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -19038,11 +19038,10 @@
       </infoLinks>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88ec-392d-7554-1de0" repeats="1"/>
-          </repeats>
+          <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1006-e22e-3aa4-f79a" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3215-720d-8883-ab23" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -20209,7 +20208,7 @@
             <modifier type="set" field="minSelections" value="1.0">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -20227,7 +20226,7 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -22465,7 +22464,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -23925,13 +23924,30 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="6e24-6484-a8a5-ffd4" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e9c6a5f-b807-27ae-8a84-90129437976b" repeats="1"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a901-f10d-4c89-caca" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="6e24-6484-a8a5-ffd4" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a901-f10d-4c89-caca" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e24-6484-a8a5-ffd4" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="cdc44304-100a-25d6-01d5-4be1eb3b32b7" name="Legion Tactical Space Marines" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -24805,7 +24821,7 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -29103,38 +29119,6 @@ Ignores Cover special rule.</description>
         <cost name="pts" costTypeId="points" value="650.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0504-3e55-3cb0-3c03" name="Rite of War.old" hidden="false" collective="false" categoryEntryId="258478de-d031-8a7e-dcb0-7d56bee86952" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f468ad2-37a2-384e-62c6-59a0ef008fe9" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="5346-fbd1-5342-3299" hidden="false" targetId="2bbb2aaa-d999-7ae6-a856-f0565c7e679b" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a1f9231f-cd7d-8a9d-fa05-e669a696bf1f" name="Rylanor the Unyielding" book="HH:LAICL" page="32" hidden="false" collective="false" categoryEntryId="456c6974657323232344415441232323" type="model">
       <profiles>
         <profile id="b61dd4d1-854b-445c-e55c-4cde709a2fde" name="Rylanor the Unyielding" book="HH:LAICL" page="32" hidden="false" profileTypeId="57616c6b657223232344415441232323">
@@ -30786,7 +30770,15 @@ Ignores Cover special rule.</description>
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="89fc-8558-ded2-c901" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries>
         <selectionEntry id="d272-97ae-020e-2d32" name="Tarantula Sentry Gun" book="HH:LACAL" page="44" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -34452,21 +34444,65 @@ Ignores Cover special rule.</description>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5e-6b5a-8505-f943" type="equalTo"/>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b290-b696-2531-97c5" type="equalTo"/>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d404-69c1-13ae-d2d2" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88ec-392d-7554-1de0" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3215-720d-8883-ab23" type="equalTo"/>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef78-414f-633c-293c" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a628-ac96-cfa9-7cfd" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a901-f10d-4c89-caca" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="minInForce" value="2">
+        <modifier type="increment" field="290e-4e10-cfcb-6e8e" value="3">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88ec-392d-7554-1de0" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3215-720d-8883-ab23" type="equalTo"/>
           </conditions>
-          <conditionGroups/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5290-69c1-0632-839c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="290e-4e10-cfcb-6e8e" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3215-720d-8883-ab23" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7438-7dc8-7f5f-904b" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc72-082d-808e-dd2f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9fd-8e3f-eaa7-b788" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc71-c60e-a448-4de1" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4635-338b-aef0-a2cc" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="290e-4e10-cfcb-6e8e" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3215-720d-8883-ab23" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0a9a-c7b7-26a7-2903" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a28-b426-b67c-3dab" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd9a-8ff1-9097-fc97" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b8b4-8004-74d8-0838" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="290e-4e10-cfcb-6e8e" type="min"/>
+      </constraints>
     </entryLink>
     <entryLink id="aac41820-75ad-ce7a-65d3-b3a7cd79cfd4" hidden="false" targetId="5b8da8d0-7c0f-1744-bd13-550239ea056c" type="selectionEntry" categoryEntryId="486561767920537570706f727423232344415441232323">
       <profiles/>
@@ -35331,7 +35367,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cc1-7f97-14a4-bd88" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e792-b6c2-8819-37b8" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -35617,7 +35653,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be06-0eed-0241-69be" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a828-f4be-8ac2-9956" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -35838,7 +35874,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a6a-73ee-9059-cd4e" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efdb-63a0-e541-2ae7" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -35854,8 +35890,8 @@ Ignores Cover special rule.</description>
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a163-36b7-e60c-8341" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a6a-73ee-9059-cd4e" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efdb-63a0-e541-2ae7" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -35877,7 +35913,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a02e-b15a-8758-d629" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40c3-8df6-844f-db5b" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -36001,7 +36037,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cc1-7f97-14a4-bd88" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e792-b6c2-8819-37b8" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -36016,7 +36052,7 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a6a-73ee-9059-cd4e" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efdb-63a0-e541-2ae7" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -36031,8 +36067,8 @@ Ignores Cover special rule.</description>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a6a-73ee-9059-cd4e" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efdb-63a0-e541-2ae7" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -36234,51 +36270,6 @@ In addition, units of Domitar-Ferrum may be joined by a single Independent Chara
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a628-ac96-cfa9-7cfd" name="After Isstvan" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="258c-c686-b244-fb13" name="After Isstvan" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Survival of the Fittest: Legion Veteran Tactical Squads may be taken as non-compulsory Troops.
-• Crucible of Hate: All units with the Legiones Astartes special rule have Hatred (Traitor Legiones Astartes).
-• Blood Price: When the Slay the Warlord Secondary Objective is in play, the Shattered Legion army gains not one but D3 Victory points for achieving this objective.
-Limitations
-• The Primary Detachment must contain a Praetor or Centurion from the Iron Hands, Raven Guard and Salamanders Legions.
-• The army may not make use of an Allies, Lords of War or Fortifications Detachment.
-• The army may not contain more Legion Tactical Squads than it has Legion Veteran Tactical Squads.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1d7-a455-50b6-432c" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -37052,83 +37043,6 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a6a-73ee-9059-cd4e" name="Chogorian Brotherhood" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="c64d-7cbc-61e7-572d" name="Chogorian Brotherhood" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Ride like the Wind: Skyhunter and Outrider squads count as Troops choices and scoring units.
-• Lightning Strike: Built around a core of mounted Space Marines, the Brotherhoods of the White Scars used these troops as dedicated shock troops, while the slower elements of the Brotherhood encircled the enemy and took up positions to support the breaches opened up by their brethren. As a result, certain types of units gain additional special rules as noted below:
-• All models with the Bike or Jetbike type gain the Hit &amp; Run special rule.
-• Any Infantry unit that does not begin play aboard a vehicle with the Transport type, or any vehicle with more than 3 Hull Points that does not have the Fast type, must begin play in Reserve if the mission allows it.
-• Any Infantry unit in which there are no models equipped with Heavy, Salvo or Ordnance weapons gains the Hit &amp; Run and Outflank special rules.
-• Any unit with the Infantry type that contains one or more models armed with a weapon with the Heavy, Salvo or Ordnance type gains the Outflank special rule.
-Limitations
-• The army’s Warlord must be mounted on either a Space Marine Bike or Scimitar Jetbike.
-• All compulsory Troops choices must be either Skyhunter or Outrider units.
-• The army may not have more Heavy Support choices than Fast Attack choices.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cab7-0486-924c-64af" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="88ec-392d-7554-1de0" name="Chosen Duty" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="0a06-0271-c88e-36ef" name="Chosen Duty" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Legion Veteran squads are Troops choices in this army, and must be taken as compulsory choices.
-• If a Legion Delegatus who is a Warlord survives the mission, their side gains an additional Victory point where these are in use. If the Legion Delegatus Warlord is slain, the enemy gains an additional Victory point (over and above any they would earn from the Slay the Warlord Secondary Objective).
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4357-15c6-7629-5a22" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e4b12fd7-ca72-5279-a63c-36223abdd186" name="Combat Shield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -37179,58 +37093,6 @@ Limitations
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9cc1-7f97-14a4-bd88" name="Company of Bitter Iron" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="db26-f3da-0128-796e" name="Company of Bitter Iron" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Company of Immortals: A detachment using this Rite of War may take Medusan Immortals as Troops choices.
-• Immortal Hatred: All units in the Primary Detachment with the Legiones Astartes (Iron Hands) special rule gain the Hatred (Traitors) special rule.
-• Bitter Duty: Medusan Immortals are Stubborn when the majority of a unit’s models are inside the enemy’s deployment zone.
-Limitations
-• This Rite of War may only be used by an army that belongs to the Loyalist faction, and may not be used in conjunction with the Shattered Legions Theme.
-• An army using this Rite of War may not take an Allied Detachment.
-• The army may not include Ferrus Manus.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c15-ac33-6bdc-979a" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1d7-a455-50b6-432c" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ea9-06d0-d880-86f1" name="Contemptor Dreadnought Talon" book="HH:LACAL" page="26" hidden="false" collective="false" categoryEntryId="456c6974657323232344415441232323" type="upgrade">
@@ -44014,37 +43876,6 @@ In addtion, all units with the Legiones Astartes (Emperor&apos;s Children) rule 
         <cost name="pts" costTypeId="points" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a02e-b15a-8758-d629" name="Hunter-killer Mission" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b2e-28fb-b5bc-1e04" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1d7-a455-50b6-432c" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72c7-94e9-6b3c-4714" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2d56d45d-d276-7830-2b7d-026de64bbae8" name="Iliastus Pattern Assault Cannon" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -44824,48 +44655,6 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="85.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4c70-2b48-cd37-dc23" name="Ironwing Protocol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="3bca-18a5-2519-1088" name="Ironwing Protocol" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Interlocking Fire: All vehicles with the Tank type in a detachment using this Rite of War that are configured in squadrons increase their Ballistic Skill to 5 while their squadron contains two or more tanks.
-• Exterminators: When targeting enemy models with shooting attacks at a range of 12&quot; or less, any infantry model using this Rite of War adds +1 to their To Wound rolls when using Pistol, Rapid Fire and Salvo weapons with Str 5 or less.
-• The Dust of Untold Worlds: All vehicles with the Tank type in a detachment using this Rite of War automatically ignore the first Dangerous Terrain test they fail and may add +1&quot; to the distance moved when going Flat Out.
-• Goliaths of War: All Dreadnoughts (of any type) included in detachments that use this Rite of War have the Fear and Tank Hunters special rules.
-Limitations
-• All infantry units in the army must begin the game deployed in a transporting vehicle with the Tank type that has sufficient Transport capacity to carry them.
-• At least half of the units in the army must be vehicles with the Tank type.
-• Should all the tanks in the force be destroyed in the battle, then the enemy counts as having scored an additional Secondary Objective.
-• You may not take a Fortification Detachment or Allied Detachment.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ba9-caf3-cb76-cce9" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4ae8f2a-ef96-0289-5600-4634a00a4c9f" name="Justaerin Terminator Squad" book="HH:LAICL" page="11" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -54082,13 +53871,11 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-      </constraints>
+      <constraints/>
       <selectionEntries>
-        <selectionEntry id="2aa4d284-0504-f14c-e27e-2982af8651ea" name="Legion Veteran Sergeant" book="HH:LACAL" page="20" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="2aa4d284-0504-f14c-e27e-2982af8651ea" name="Legion Veteran Sergeant" book="" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
-            <profile id="f9f28a0d-38da-74e1-1d67-cc00af57e09c" name="Legion Veteran Sergeant" book="HH:LACAL" page="20" hidden="false" profileTypeId="556e697423232344415441232323">
+            <profile id="f9f28a0d-38da-74e1-1d67-cc00af57e09c" name="Legion Veteran Sergeant" book="LA:AODAL" page="28" hidden="false" profileTypeId="556e697423232344415441232323">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -54251,6 +54038,17 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                   <costs>
                     <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry id="12f8-2ae7-63b0-e01a" name="Chainsword/Combat Blade" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -54451,9 +54249,9 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dd02066d-5458-c38d-990a-b6fdad016494" name="Legion Veteran Space Marines" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+        <selectionEntry id="dd02066d-5458-c38d-990a-b6fdad016494" name="Legion Veteran Space Marines" book="" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
           <profiles>
-            <profile id="7ae11bca-41c9-586d-4702-4ee58c50c827" name="Legion Veteran Space Marine" book="HH:LACAL" page="20" hidden="false" profileTypeId="556e697423232344415441232323">
+            <profile id="7ae11bca-41c9-586d-4702-4ee58c50c827" name="Legion Veteran Space Marine" book="LA:AODAL" page="28" hidden="false" profileTypeId="556e697423232344415441232323">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -56167,59 +55965,6 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9baf-b880-dc66-4269" name="Liberation Force" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="d528-5943-5942-6da5" name="Liberation Force" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Freedom Fighters: Once per game, declared by the Raven Guard player at the beginning of a Game Turn of their choice, every model in the army gains the Zealot special rule for the remainder of that Game Turn.
-• Slayer of Tyrants: When playing a mission that uses the Slay the Warlord Secondary Objective, the controlling player earns not i but D3 Victory points for achieving this Victory Condition.
-• Lead by Example: Should the army include an Allied Detachment drawn from the Imperialis Militia and Warp Cults army list, models from that detachment are Fearless within 6&quot; of any model that has the Legiones Astartes (Raven Guard) special rule.
-Limitations
-• This Rite of War may not be used by an army making use of the Shattered Legions Theme.
-• An army making use of this Rite of War may not take a Fortifications Detachment or any units with the Immobile or Slow and Purposeful special rules.
-• This Rite of War may only be used by a detachment belonging to the Loyalist faction.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e5f9-ed3d-e8dc-aba2" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1d7-a455-50b6-432c" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -61137,14 +60882,14 @@ Limitations
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5e-6b5a-8505-f943" type="equalTo"/>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d12f-32a8-8af8-0f26" type="equalTo"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="points" value="5.0">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c76-9201-65b9-8a74" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96bb-b11d-87e7-5408" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -61709,49 +61454,6 @@ Limitations
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5c76-9201-65b9-8a74" name="Ravenwing Protocol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="72c1-7408-981a-a193" name="Ravenwing Protocol" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>• Iron Knights: Legion Jetbike Sky Hunter Squadrons and Legion Outrider Squads are the only Troops choices available in a Primary Detachment using this Rite ofWaL Independent Characters selected for use with this Rite of War must take either a Space Marine Bike or Scimitar Jetbike as part of their wargear.
-This means that certain Independent Characters without this option may not be used
-• Knights Commander: Independent Character models in a detachment using this Rite of War may recroll wounds against targets with a Toughness of s or more in an assault. In addition, they and any unit with the Legiones Astartes (Dark Angels) special rule they have joined ignore penalties to their Leadership in the Assault phase.
-• Search &amp; Destroy: let Bikes and Skimmers (including those taken as mounts by Independent Characters) may leave the table in their own Movement phase and be placed into Ongoing Reserves These units re-enter play using the Outflank special rule.
-• Hunt Them Down: Sweeping Advance rolls for all units in a detachment using this Rite of War may be refilled if the controlling player wishes.
-• Scout the Land: Character models in this detachment may be equipped with rad grenades for +5 points each.
-Limitations
-• The only vehicles allowed in the army are those that have the Skimmer or Flyer type.
-• All Infantry units in the army must begin the game deployed in a Flyer that has sufficient Transport capacity to carry them and enters play via Reserves.
-• The army may not include a Fortifications Detachment or an Allied Detachment, and may only select Lords of War choices that are Flyers of some type.
-• Inviolate and Alone: Models with the Legiones Astartes (Dark Angels) special rule using this Rite of War may never benefit from the Leadership characteristic or any Leadership related bonus or special rule from any model which does not also have the Legiones Astartes (Dark Angels) or Sire of the Dark Angels special rules. Nor may units using this Rite of War be Joined by Independent Characters not part of this detachment.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ba9-caf3-cb76-cce9" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb9e1c3d-8547-ecf0-0260-26720068088d" name="Reaver Attack Squad" book="HH:LAICL" page="12" hidden="false" collective="false" categoryEntryId="466173742041747461636b23232344415441232323" type="unit">
@@ -62983,48 +62685,6 @@ Phalanx Breacher squads and Legion Terminator squads may be taken as troops in a
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0a99-a9c4-e2d3-e269" name="Sacrificial Offering" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="06b9-300a-aebc-5eb7" name="Sacrificial Offering" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Circling the Trap: All models in the Primary Detachment gain the Outflank special rule and must begin the game held in Reserve.
-• Faith Misplaced: The army’s Allied Detachment gains the Stubborn special rule while in its own deployment zone.
-• Beneath Contempt: The units of the Allied Detachment never yield Victory points for being destroyed.
-Limitations
-• The army must include an Allied Detachment drawn from the Imperialis Militia and Warp Cult army list, and this must begin the game deployed.
-• The army must include a Fortifications Detachment.
-• All Primary Detachment units must begin in Reserve.
-• The Primary Detachment may not include any units with the Immobile or the Slow and Purposeful special rules.
-• The army may not include any models that deploy using the Deep Strike special rule.
-• This Rite of War may only be used in a Traitor army.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b2e-28fb-b5bc-1e04" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -64817,46 +64477,6 @@ All Heavy Bolters/Twin-linked Heavy Bolters/Quad Heavy Bolters in unit are affec
         <cost name="pts" costTypeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be06-0eed-0241-69be" name="The Awakening Fire" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="2a78-478d-949e-7bd7" name="The Awakening Fire" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Devils from the Dark: Infantry models in a Primary Detachment using this Rite of War that have the Legiones Astartes: Salamanders) special rule cause Fear.
-• Unto the Fires: In missions that make use of the Random Game Length scenario special rule, the Salamanders player may declare that the game is to be played for one more Game Turn should the roll indicate it ends.
-• Fury of the Salamander: Librarians in a Primary Detachment using this Rite of War have access to the Fury of the Salamander psychic power (see below). This counts as a Pyromancy power and may be chosen instead of Flame Breath as an alternative Primaris Power so long as the Librarian meets the requirement for the Psychic Focus special rule (see The Psychic Phase chapter of the Warhammer 40,000 rulebook).
-Limitations
-• A Primary Detachment making use of this Rite of War must include a Legion Chaplain.
-• The Primary Detachment may include no more than one of each of the following: Jump Infantry; Jet Bikes; Skimmers; Flyers.
-• The army may not include the Primarch Vulkan.
-• The army may not make use of a Fortification Detachment or an Allied Detachment.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a91f-3b51-950d-ba8a" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ae27fde6-59da-4d61-b030-b48ba3e501c1" name="The Cataphractii Primus" book="HH4: Conquest" page="227" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -64880,128 +64500,6 @@ Limitations
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1654-4dbf-17df-46fa" name="The Day of Revelation" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="4666-61e5-2ac7-ce80" name="The Day of Revelation" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Cometh the Host: Jump Infantry squads which are a part of this detachment must arrive via Deep Strike on the first turn of the game and do not need to roll for Reserves.
-• With Fire &amp; Thunder: All Deep Striking units in this detachment gain a 5+ cover save on the Game Turn they arrive in play. Place a marker by the unit or otherwise note this to be the case.
-• The Opening of the Seal: All ranged weapons carried by Infantry and Jump Infantry units which are a part of this detachment gain the Pinning special rule in the Shooting phase of any player turn in which they Deep Strike.
-• The Judgement of Angels: All units which are a part of this detachment and have the Legiones Astartes (Blood Angels) special rule gain +1 Initiative on the turn they charge into an assault.
-• By Honour Bound: Characters with the Legiones Astartes (Blood Angels) special rule must always accept a Challenge if one is offered in combat. I f multiple eligible characters are present in the combat, the controlling player may choose which one answers the Challenge as normal.
-Limitations
-• Compulsory HQ. and Troops choices for this detachment must be made up of units equipped with jump packs.
-• Detachments using this Rite of War must take a compulsory Fast Attack choice as part of their force which must also have either the Flyer or Deep Strike special rule.
-• Primary Detachments using this Rite of War may not take any fortifications, Sentry Guns or Lords of War other than Flyers or the Primarch Sanguinius.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16a2-56d6-9be5-ede0" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a5bf-7eaa-c383-06ba" name="The Day of Sorrows" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="b609-d7d6-02d8-9c86" name="The Day of Sorrows" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Resolute Defence: Any unit with the Legiones Astartes (Blood Angels) special rule which is a part of a detachment which uses this Rite of War cannot be Pinned, and in addition is Stubborn when within 3” of any objective in their own deployment zone.
-• Aura of Wrath: A ny unit which suffers a Morale check as a result of losing an assault in which the majority of the enemy models have the Legiones Astartes (Blood Angels) special rule, suffers an additional -1 penalty to their Leadership value when taking the test. Units which are immune to Fear are immune to this ability.
-• By Blood Sworn: W hen any unit with the Legiones Astartes (Blood Angels) special rule which is a part of a detachment which uses this Rite of War is reduced to 50% or less of its starting models, the remaining models gain the Feel No Pain (5+) special rule from the beginning of their next turn - this lasts for the remainder of the game.
-Limitations
-• Bloody-handed: Any unit with the Legiones Astartes (Blood Angels) special rule which is part of a detachment which uses this Rite of War must always make Sweeping Advances, and Characters which are a part of these units must issue and accept Challenges in combat where applicable. The Blood Angels player however may choose which of their Characters does this if they have more than one in the combat.
-• To the Bitter Dregs: Any unit with the Legiones Astartes (Blood Angels) special rule which is a part of a detachment which uses this Rite of War that has been reduced to 50% or less of its starting number of models counts as being destroyed at the end of the game for the purposes of Victory points where these are used, and no longer counts as a scoring unit. Note that Characters attached to these units are unaffected.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16a2-56d6-9be5-ede0" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e1efefb5-5f19-7ef9-fe05-789e5e9b07a4" name="The Hammer of Olympia" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="3f79-108b-f97c-fb94" name="The Hammer of Olympia" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Hail of Fire: Models with the Legiones Astartes (Iron Warriors) special rule that are part of a force using this Rite of War may declare an assault after firing rapid fire weapons, so long as they have not also made a Fury of the Legion attack, but counts as making a disordered charge if doing so. Note that the unit may still only assault the same unit they have fired at.
-• Sheathed in Steel: All vehicles with the Tank and Walker types chosen as part of this formation gain the Extra Armour option at no additional cost.
-• Siege Engineers: A primary detachment using this Rite of War may take an additional Heavy Support choice on their Force Organisation chart.
-Limitations
-• Detachments using this Rite of War must take either a Warsmith or Siege Breaker as its Compulsory HQ choice.
-• Detachments using this Rite of War must take more Heavy Support choices than Fast Attack choices from the Force Organisation chart for the mission type they are using. So, for example, if the force contains three Heavy Support choices, it can only contain up to two Fast Attack choices.
-• Detachments using this Rite of War must take an additional Compulsory Troops choice as part of their Force Organisation chart.
-• Detachments using this Rite of War may not take allied Space Marine Legion detachments.
-</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="32d3-d798-1520-7701" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c9ab402-5181-cb3e-9e53-6e3e77c3fac6" name="The Kakophani of the Emperor&apos;s Children" book="HH:LAICL" page="33" hidden="false" collective="false" categoryEntryId="486561767920537570706f727423232344415441232323" type="unit">
@@ -66480,50 +65978,6 @@ In addition, units of Domitar-Ferrum may be joined by a single Independent Chara
         <cost name="pts" costTypeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35c9-603e-3c5a-eefc" name="The Sagyar Mazan" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="c817-b97c-e95b-7582" name="The Sagyar Mazan" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Death Seekers: At the end of any game in which Victory points are used to determine the winner, roll a D6 for every unit with the Legiones Astartes special rule in this detachment that has been destroyed and in so doing yielded Victory points to the opponent. On a roll of 4 or 5, no Victory points are awarded, while on a 6, no Victory points are awarded and the owning side earns an additional Victory point 
-• Serpent’s Eye: A ll models with the Legiones Astartes special rule are Fearless for the first turn of any assault.
-Limitations
-• This Rite of War may only be used by a Loyalist army.
-• The army may never contain more vehicles than it has units with the Infantry type.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d1d7-a455-50b6-432c" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cab7-0486-924c-64af" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cea6be0e-460b-ce44-90f4-b1b0159ee33c" name="Trophies of Judgement" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -66926,59 +66380,6 @@ Limitations
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7148-f03a-8120-83a5" name="Vigil Opertii Mission" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="d787-cb95-bf17-9a8a" name="Vigil Opertii Mission" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Effects
-• Vigil Auxilia: All infantry units in the Allied Detachment in this army have the Infiltrators special rule.
-• Sacred Duty. All infantry units in the Allied Detachment have the Implacable Advance special rule and therefore count as scoring units regardless of their battlefield role.
-• Overseers: Legion Recon squads lose the Support Squad special rule and may therefore be taken as a compulsory Troops choices.
-Limitations
-• The army must include an Allied Detachment drawn from the Loyalist Imperialis Militia and Warp Cult army list, and this must take the Gene-crafted and Warrior Elite Provenances.
-• The Allied Detachment may not include Inducted Levy Squads.
-• This Rite of War may only be used b y an army belonging to the Loyalist faction.
-• The Primary Detachment must Include a Legion Vigilator.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="7631-92fd-28fb-5528" name="New InfoLink" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="80e8-6449-416a-55a3" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc0-3d8d-c43a-8994" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e92b-34de-9f52-5c3a" name="Vigil Pattern Storm Shield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -69562,131 +68963,6 @@ Limitations
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2bbb2aaa-d999-7ae6-a856-f0565c7e679b" name="Rites of War" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="5030bc3f-c92e-99e0-c07f-454fee862e85" hidden="false" targetId="e1efefb5-5f19-7ef9-fe05-789e5e9b07a4" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="529d-0401-66ac-bb85" hidden="false" targetId="88ec-392d-7554-1de0" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="08ba-9a60-ea71-680e" hidden="false" targetId="0a99-a9c4-e2d3-e269" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="2c65-2bf5-acbb-af6f" hidden="false" targetId="a628-ac96-cfa9-7cfd" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="20c0-559c-49a1-501d" hidden="false" targetId="a02e-b15a-8758-d629" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="8dd8-4e75-5c10-1fc7" hidden="false" targetId="7148-f03a-8120-83a5" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="0b2e-8a25-68ac-f8fc" hidden="false" targetId="9cc1-7f97-14a4-bd88" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="1f54-2815-9332-ab69" hidden="false" targetId="9baf-b880-dc66-4269" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="883b-d62a-a302-9b4c" hidden="false" targetId="be06-0eed-0241-69be" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="d97c-9be9-11fb-71c5" hidden="false" targetId="1654-4dbf-17df-46fa" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="aa18-1787-5fcb-085f" hidden="false" targetId="a5bf-7eaa-c383-06ba" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="3610-e9db-fc0d-fb90" hidden="false" targetId="7a6a-73ee-9059-cd4e" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="0697-547f-b6ef-2eb0" hidden="false" targetId="35c9-603e-3c5a-eefc" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="26de-1bdf-609e-3eac" hidden="false" targetId="4c70-2b48-cd37-dc23" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="7e89-f32f-222f-fc8e" hidden="false" targetId="5c76-9201-65b9-8a74" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
     <selectionEntryGroup id="c487-be13-ea53-917e" name="Shattered Legion" hidden="false" collective="false">
       <profiles/>
       <rules/>
@@ -69702,6 +68978,7 @@ Limitations
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd3d-b1d3-8cb9-2fb9" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="a737-5675-ca6a-06c1" name=" X: Iron Hands" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
