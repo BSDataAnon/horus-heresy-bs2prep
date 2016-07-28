@@ -10471,7 +10471,9 @@ Command Benefits:
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="6155-7d88-ab2c-bd97" name="Power Axe" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -10497,7 +10499,9 @@ Command Benefits:
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="12ba-a5f1-fb0b-17da" name="Power Maul" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -10523,7 +10527,9 @@ Command Benefits:
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="0cc0-fdbf-8b1b-2953" name="Power Lance" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -10543,7 +10549,9 @@ Command Benefits:
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -10574,7 +10582,9 @@ Command Benefits:
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f0c0-384d-440f-c03b" name="Volkite Charger" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -10678,7 +10688,9 @@ Command Benefits:
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4c62-8983-4a1b-d1c6" name="Melta Bombs" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -10762,6 +10774,78 @@ Command Benefits:
           <costs>
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="dd74-ccdb-9bc6-7069" name="Artificer Armour" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" book="LA:AODAL" page="131" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Artificer Armour confers a 2+ Armour save.  "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a29-1aac-16b3-a2cd" name="Frag and Krak Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d747-9059-bede-8591" name="New InfoLink" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6b94-1cc8-0bd1-6752" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ad2a-317f-36af-1b2b" name="New InfoLink" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9249-5657-216b-5fe5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3652-94bd-ffb4-39d9" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="fcf2-0b15-8e87-0456" name="Power Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb8d-63d7-a660-1b61" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc74-5e81-c0d8-22fe" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -11439,6 +11523,13 @@ In addition, units containing one or more models with the Zealot special rule re
       <modifiers/>
       <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
 If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</description>
+    </rule>
+    <rule id="9430-a4d5-6f01-57e2" name="Frag Grenades" book="BRB 7th" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.  </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -12340,6 +12431,57 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="8"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="1"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Armourbane, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="16b1-5d9f-cc76-f19d" name="Power Armour" book="LA:AODAL" page="133" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Power Armour confers a 3+ Armour save.  "/>
+      </characteristics>
+    </profile>
+    <profile id="d890-1b84-bbd9-12d3" name="Frag Grenades" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="8&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="-"/>
+        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1, Blast"/>
+      </characteristics>
+    </profile>
+    <profile id="d9f7-775b-1047-f335" name="Krak Grenade" book="" hidden="false" profileTypeId="57616c6b657223232344415441232323" profileTypeName="Walker">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="WS" characteristicTypeId="575323232344415441232323"/>
+        <characteristic name="BS" characteristicTypeId="425323232344415441232323"/>
+        <characteristic name="S" characteristicTypeId="5323232344415441232323"/>
+        <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323"/>
+        <characteristic name="Side" characteristicTypeId="5369646523232344415441232323"/>
+        <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323"/>
+        <characteristic name="I" characteristicTypeId="4923232344415441232323"/>
+        <characteristic name="A" characteristicTypeId="4123232344415441232323"/>
+        <characteristic name="HP" characteristicTypeId="485023232344415441232323"/>
+        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+      </characteristics>
+    </profile>
+    <profile id="fc49-7c79-dd0e-215f" name="Krak Grenade" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="8&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
+        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="4"/>
+        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1"/>
       </characteristics>
     </profile>
   </sharedProfiles>

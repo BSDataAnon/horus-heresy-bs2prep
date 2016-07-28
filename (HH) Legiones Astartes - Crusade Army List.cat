@@ -23898,11 +23898,14 @@
     <selectionEntry id="da40e015-a22c-ecc4-c9b8-0add9ff5d50f" name="Legion Tactical Squad" book="HH:LACAL" page="30" hidden="false" collective="false" categoryEntryId="54726f6f707323232344415441232323" type="unit">
       <profiles/>
       <rules>
-        <rule id="7ec6b7a3-f2c7-2dae-92da-eeb275814911" name="Fury of the Legion" book="HH:LACAL" page="30" hidden="false">
+        <rule id="7ec6b7a3-f2c7-2dae-92da-eeb275814911" name="Fury of the Legion" book="LA:AODAL" page="40" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>While at least five models remain in the unit armed with bolters or bolt pistols, the squad can elect to make a Fury of the Legion attack in the Shooting phase so long as they did not move, arrive via Deep Strike or disembark a vehicle earlier in that player turn. Models making a Fury of the Legion attack may fire twice with their bolters or bolt pistols against a single target (note that in the case of a combi-weapon, only the bolter part may fire twice).
+
+Owing to the massive expenditure of ammunition involved, once a squad has made a Fury of the Legion attack it may not use Overwatch fire later that turn or fire in the Shooting phase of their next player turn, but may otherwise move, fight in assault, run, etc, normally (place a counter or note next to the unit to represent this). Fury of the Legion attacks may not be used for Snap Shots, and models joining the unit do not benefit from this rule and must fire normally, as does any non-bolter weapon used by the squad at the same time as the Fury of the Legion attack is made</description>
         </rule>
       </rules>
       <infoLinks>
@@ -23951,16 +23954,28 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="cdc44304-100a-25d6-01d5-4be1eb3b32b7" name="Legion Tactical Space Marines" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="59e95f52-ba3b-f46b-f771-82f0667631dd" hidden="false" targetId="fbcef7de-124c-9b95-7895-480adc6bc027" type="profile">
+          <profiles>
+            <profile id="8579-d590-49fc-4dc6" name="Legion Tactical Space Marine" book="LA:AODAL" page="40" hidden="false" profileTypeId="556e697423232344415441232323" profileTypeName="Unit">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-            </infoLink>
-          </infoLinks>
+              <characteristics>
+                <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
+                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
+                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
+                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+                <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="3+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
@@ -23974,53 +23989,34 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="76b160c7-d7da-b446-947a-ade196020616" name="Legion Tactical Sergeant" book="" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="2dbfcb83-7a95-705d-6c53-3f152a675f04" hidden="false" targetId="b8d20a55-69ff-eb96-e080-8f495bf99283" type="profile">
+          <profiles>
+            <profile id="54ca-3833-470c-ce87" name="Legion Tactical Sergeant" book="LA:AODAL" page="40" hidden="false" profileTypeId="556e697423232344415441232323" profileTypeName="Unit">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-            </infoLink>
-          </infoLinks>
+              <characteristics>
+                <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infanty (Character)"/>
+                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
+                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
+                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
+                <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="3+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="e71b9679-2d4e-3245-70ae-a2e66497aa78" name="Melta Bombs" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a44d78f3-ec4d-4ac1-e48f-3e62791af1b6" name="Artificer Armour" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="94f39ce3-a567-ad5c-fd6a-3ef2bc1865bb" name="Exchange Chainsword/Combat Blade for:" hidden="false" collective="false">
               <profiles/>
@@ -24411,16 +24407,30 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="9053-fe22-ae23-aeae" name="New EntryLink" hidden="false" targetId="4c62-8983-4a1b-d1c6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="759a-10b6-e74e-a61e" name="New EntryLink" hidden="false" targetId="dd74-ccdb-9bc6-7069" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="63397b81-9e4e-719b-d8ec-c3924aacf6d0" name="Legion Vexilla" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="d5da-52b1-5596-a1e1" name="Bolt Pistols" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="dca80f41-6bd0-042c-6099-15f38dc10bdd" hidden="false" targetId="ba36b6bf-425f-696a-0ea6-fac341e20955" type="profile">
+            <infoLink id="17ae-f1bf-8dad-daf3" name="New InfoLink" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -24429,52 +24439,37 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="127c-cd44-a0e5-4054" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="57a2-8e64-2ab6-d518" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ba159b5e-f1ad-963e-9d0d-37f0e09024c4" name="Nuncio-Vox" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d5893812-b286-e189-5b29-a8b0f3da2e28" hidden="false" targetId="9a458a3c-a9b5-db5e-a218-2041a3a49004" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="305953f0-2387-5bd5-6e23-f57bfe74c183" name="Entire Tactical squad may do one of the following::" hidden="false" collective="false">
+        <selectionEntryGroup id="305953f0-2387-5bd5-6e23-f57bfe74c183" name="Tactical Squad Weapons" hidden="false" collective="false" defaultSelectionEntryId="d7fe-5934-7440-b8a1">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66a2-50c3-e9e6-db6e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="26c838db-a6f2-b887-5cde-2e7236130fee" name="Exchange their Bolters for a Chainsword or Combat Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="26c838db-a6f2-b887-5cde-2e7236130fee" name="Chainswords/Combat Blades" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="8794-0833-c7a6-7d38" name="New InfoLink" hidden="false" targetId="730c-b70b-1e8f-f2e9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -24486,10 +24481,23 @@
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f0b3cd06-d2a7-888c-1d33-756a8a492b26" name="Take an additional Chainsword or Combat Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+            <selectionEntry id="f0b3cd06-d2a7-888c-1d33-756a8a492b26" name="Bolters and Chainswords/Combat Blades" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f8ba-c6f3-37cf-7e6f" name="New InfoLink" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="9233-8eef-474a-25da" name="New InfoLink" hidden="false" targetId="730c-b70b-1e8f-f2e9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers>
                 <modifier type="increment" field="points" value="2">
                   <repeats>
@@ -24508,6 +24516,26 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="d7fe-5934-7440-b8a1" name="Bolters" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6d59-db5a-c330-3acb" name="New InfoLink" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8efc-5754-b67e-bcaa" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -24787,6 +24815,20 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="20e1-1f46-3baf-078a" hidden="false" targetId="c487-be13-ea53-917e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="bc6e-05d0-d27f-d66a" name="New EntryLink" hidden="false" targetId="b4ea-a586-86a9-02eb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="81f9-b549-a112-997d" name="New EntryLink" hidden="false" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -54264,6 +54306,37 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="24c9-feff-0469-7764" name="One Legion Veteran may take:" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38ac-537a-14ab-b325" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="d20f-6333-49ab-fc82" name="New EntryLink" hidden="false" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0467-c2ea-a02b-3755" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="c4b3-0e5a-3946-4d30" name="New EntryLink" hidden="false" targetId="b4ea-a586-86a9-02eb" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="5e9c6a5f-b807-27ae-8a84-90129437976b" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4c01-f5dd-a0a5-9051" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
@@ -55087,6 +55160,15 @@ Heat Blast (Fire Sweep): Any unit the model passes over suffers a S6 AP5 hit wit
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </entryLink>
+        <entryLink id="ecc7-9a94-f8d4-74e0" name="New EntryLink" hidden="false" targetId="6026-d507-935a-7200" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="143b-8a64-0824-47b1" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
