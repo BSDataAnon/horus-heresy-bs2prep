@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="Warhammer 30,000 - The Horus Heresy" book="Forgeworld Horus Heresy Series" revision="37" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="Warhammer 30,000 - The Horus Heresy" book="Forgeworld Horus Heresy Series" revision="38" battleScribeVersion="2.00" authorName="Millicant" authorContact="Please submit any bugs to the website below" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5040,7 +5040,7 @@ D6    Result		S	AP
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="5e2c-c991-b11b-6909" name="New InfoLink" hidden="false" targetId="1d89-449a-a8e4-6b96" type="rule">
+                <infoLink id="5e2c-c991-b11b-6909" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5445,7 +5445,7 @@ D6    Result		S	AP
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="168b-3730-493d-ef94" name="New InfoLink" hidden="false" targetId="1d89-449a-a8e4-6b96" type="rule">
+                <infoLink id="168b-3730-493d-ef94" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5747,7 +5747,7 @@ D6    Result		S	AP
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="021c-7623-50a2-b286" name="New InfoLink" hidden="false" targetId="1d89-449a-a8e4-6b96" type="rule">
+                <infoLink id="021c-7623-50a2-b286" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10025,7 +10025,6 @@ Command Benefits:
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="190e-3e42-ee0a-f3e6" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34bc-c29f-4d93-0ec3" type="min"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7961-051b-bb8e-f818" type="min"/>
           </constraints>
           <selectionEntries/>
@@ -10380,7 +10379,13 @@ Command Benefits:
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="name" value="Power Fist">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b7c-befb-5795-6b6e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6cf0-88b0-fff6-961c" type="max"/>
@@ -10567,7 +10572,7 @@ Command Benefits:
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6cf2-264f-b527-1a37" name="New InfoLink" hidden="false" targetId="61ad-312f-66c7-cf9a" type="profile">
+            <infoLink id="6cf2-264f-b527-1a37" name="New InfoLink" hidden="false" targetId="3a71-7de1-1948-3655" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10720,6 +10725,28 @@ Command Benefits:
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="81ad-7f0f-bf68-9139" name="Heavy Chainsword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7f3c-4a6a-b0d2-0db4" name="New InfoLink" hidden="false" targetId="0fef-f304-fdfe-b082" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3084-84ae-fa24-4036" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -10800,23 +10827,79 @@ Command Benefits:
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5a29-1aac-16b3-a2cd" name="Frag and Krak Grenades" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ab39-d41c-7f2d-a92b" name="Combat Shield" book="LA:AODAL" page="131" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="96e4-a19a-7925-ebaa" name="Combat Shield" book="LA:AODAL" page="131" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Combat shields and boarding shields confer a 6+ invulnerable save, increasing to 5+ in close combat."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c30-47c5-950a-e3df" name="Boarding Shield" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6533-2088-4bf4-7788" name="Boarding Shield" book="LA:AODAL" page="131" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Combat shields and boarding shields confer a 6+ invulnerable save, increasing to 5+ in close combat. A model equipped with a boarding shield also counts as being equipped with defensive grenades and cannot claim the extra attack for being armed with an additional close combat weapon."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f5f-b5eb-eb91-d212" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="131a-f920-a4da-1196" name="Jump Pack" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="d747-9059-bede-8591" name="New InfoLink" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+            <infoLink id="d3a7-f59c-affa-2304" name="New InfoLink" hidden="false" targetId="d219-2314-4834-c054" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="6b94-1cc8-0bd1-6752" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
+            <infoLink id="0f09-9044-0614-dbf4" name="New InfoLink" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="ad2a-317f-36af-1b2b" name="New InfoLink" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+            <infoLink id="074a-533b-41ac-f2ae" name="New InfoLink" hidden="false" targetId="f095-0842-a6b1-5404" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0cfb-ee3e-b966-8841" name="New InfoLink" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10825,22 +10908,367 @@ Command Benefits:
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9249-5657-216b-5fe5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3652-94bd-ffb4-39d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb9a-1adf-8c3d-0560" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c90e-f674-9793-926a" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs/>
         </selectionEntry>
-        <selectionEntry id="fcf2-0b15-8e87-0456" name="Power Armour" hidden="false" collective="false" type="upgrade">
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ad79-71e5-7cbe-ec05" name="Weapons and Wargear - Profile" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="1087-66c1-c342-9cdc" name="Chainswords/Combat Blades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e8ff-7994-f83f-1431" name="New InfoLink" hidden="false" targetId="730c-b70b-1e8f-f2e9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="faf6-af13-1b26-b564" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e90f-f90c-c522-955a" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fe8d-1baa-d58d-00bc" name="Bolt Pistols" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="007f-9e7f-2a8f-8258" name="New InfoLink" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0319-1d67-55e9-f6b6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb7c-f30f-705b-5a92" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bdb7-38c9-5aeb-fc05" name="Jump Packs" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0f09-84c7-e224-4a86" name="New InfoLink" hidden="false" targetId="d219-2314-4834-c054" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="35e9-6bd8-f762-4692" name="New InfoLink" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="07d7-4dd2-1484-2f06" name="New InfoLink" hidden="false" targetId="f095-0842-a6b1-5404" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d52b-0af7-fe19-1ff0" name="New InfoLink" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7128-471b-8a5a-7e28" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="28e0-a554-ff25-23bd" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="0a96-04b6-7340-91a4" name="Power Armour" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0680-4dd1-54b3-1ed8" name="Power Armour" book="LA:AODAL" page="133" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Power armour provides a 3+ Armour save."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc94-642f-394e-463d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ceed-2412-dfeb-bceb" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="11b4-834b-6fe1-7595" name="New EntryLink" hidden="false" targetId="ab41-0e60-10f5-089c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0a53-b471-df87-7b83" name="Frag and Krak Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dd55-88e3-9351-e96e" name="New InfoLink" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a7b7-4101-28f0-fc1a" name="New InfoLink" hidden="false" targetId="9430-a4d5-6f01-57e2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2907-df2d-6744-816c" name="New InfoLink" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f610-4a8f-a2ea-f874" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e5b-5f34-1886-673c" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac90-ce47-65c6-f5f3" name="Bolters" book="" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b34d-0f0b-5758-bf5e" name="New InfoLink" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b76-a294-9e00-123a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15fa-e779-fdd7-37df" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ef60-2bbb-7886-785e" name="Pariah Wargear" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="ab41-0e60-10f5-089c" name="Pariah Power Armour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="6767-cb20-928a-3c48" name="Pariah Power Armour" book="HH6: Retribution" page="222" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Confers a 3+ armour save that drops to a 5+ against weapons with a Strength of 6 or higher whose AP is not sufficient to bypass the armour normally.  Models with this armour may Snap Shot with Pistol, Rapid Fire, and Assault weapons in the same Shooting phase in which they have Run, shooting once the movement is complete.  "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="274a-5c0d-319b-a20d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0864-90c2-1737-6aff" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8511-a035-51fc-4e3c" name="Pariah Flamer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="158e-ac1f-c397-e479" name="Pariah Flamer" book="HH6: Retribution" page="222" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Template"/>
+                <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+                <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="5"/>
+                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1, Overpressure"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="31a2-06ee-fc07-d591" name="Overpressure" book="HH6: Retribution" page="222" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description> A weapon with the overpressure rule may be fired at St 4 and with the Torrent and Gets Hot special rules.  May not be used during overwatch.  </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="274a-5c0d-319b-a20d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34cc-4566-6320-146d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c1e3-87da-e083-a770" name="Pariah Bolter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="3ec5-f6b5-dea9-8161" name="Pariah Bolter" book="HH6: Retribution" page="222" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="16&quot;"/>
+                <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="4"/>
+                <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="5"/>
+                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0402-1cea-73cb-f162" name="Pariah Bolter" book="HH6: Retribution" page="222" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If a charge is made in the same player turn that a model from the unit fired with this weapon, the charge will count as Disordered. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="274a-5c0d-319b-a20d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da53-5257-ac86-5844" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7915-7b0d-2b34-118e" name="Descriptors" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="4cd1-d102-88dd-9b38" name="Infantry" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb8d-63d7-a660-1b61" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc74-5e81-c0d8-22fe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43e3-1eeb-62b7-b5b0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6580-9c11-e898-3f55" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9e28-1eb9-08cf-c83d" name="Jump Infantry" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67ea-2c00-a56f-d635" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="028c-5309-50c9-ac5d" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -11381,13 +11809,6 @@ In either case, against vehicles, each armour penetration roll of 6 allows a fur
       <modifiers/>
       <description>When losing its final wound, roll a D6.  On the result of a 6, the model explodes, inflicting a Str 4 AP - hit on all models within D6&quot;</description>
     </rule>
-    <rule id="1d89-449a-a8e4-6b96" name="Assault Grenade" book="BRB 7th" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Models equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.</description>
-    </rule>
     <rule id="9b30-1da3-eb8d-ce7a" name="Scout" book="BRB 7th" hidden="false">
       <profiles/>
       <rules/>
@@ -11524,12 +11945,57 @@ In addition, units containing one or more models with the Zealot special rule re
       <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
 If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</description>
     </rule>
-    <rule id="9430-a4d5-6f01-57e2" name="Frag Grenades" book="BRB 7th" hidden="false">
+    <rule id="9430-a4d5-6f01-57e2" name="Assault Grenades" book="BRB 7th" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Models equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.  </description>
+    </rule>
+    <rule id="38d5-b6eb-bda8-2497" name="Bulky" book="BRB 7th" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="abc9-8566-bb61-4b7c" name="Very Bulky" book="BRB 7th" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Very Bulky models count as three models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="2834-307f-1830-df9a" name="Extremely Bulky" book="BRB 7th" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Extremely Bulky models count as five models for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="8cb0-ff25-22a2-d480" name="Jump Unit" book="BRB 7th" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Jump units can use their jump packs once each turn to move more swiftly in either the Movement phase or the Assault phase – they cannot use their jump packs in both phases in the same turn. If not using its jump pack, a model moves as a normal model of its type. Indeed, a Jump unit can always choose to move as a normal model of their type if they wish. Note that the entire unit must always use the same form of movement. Units that are described as ‘moving like’ Jump units follow all of the rules for Jump units, and use the same special rules.
+
+SKYBORNE
+When using its jump pack (whether moving, charging or Falling Back, as we’ll discuss in a moment) a model can move over all other models and all terrain freely. However, if the model begins or ends its move in difficult terrain, it must take a Dangerous Terrain test.
+Jump models cannot end their move on top of other models and can only end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do this, however, they treat the impassable terrain as dangerous terrain.
+
+MOVEMENT PHASE
+If a Jump model uses its jump pack (or equivalent) in the Movement phase, it can move up to 12&quot;.
+
+ASSAULT PHASE
+If a Jump model uses its jump pack to charge into assault, it can re-roll its charge distance.
+Furthermore, to represent the crushing impact of such a charge, a model that uses its jump pack to charge gains the Hammer of Wrath special rule for the remainder of the turn.
+
+FALL BACK MOVES
+Jump units always use their jump packs when Falling Back, and their Fall Back moves are 3D6&quot;, even if they already used their jump pack to move that turn.
+
+SPECIAL RULES
+Jump units have the Bulky and Deep Strike special rules.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -11855,18 +12321,6 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="3"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 3, Pinning"/>
-      </characteristics>
-    </profile>
-    <profile id="61ad-312f-66c7-cf9a" name="Flamer" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Template"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="4"/>
-        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="5"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1"/>
       </characteristics>
     </profile>
     <profile id="3428-cbe9-fba3-955b" name="Stock Chargers" book="HH:MT" page="107" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
@@ -12244,7 +12698,7 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Artificer armour confers a 2+ Armour save.  "/>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Artificer Armour confers a 2+ Armour save.  "/>
       </characteristics>
     </profile>
     <profile id="21b6-668e-d5ef-a8da" name="Hand Flamer" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
@@ -12454,25 +12908,7 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1, Blast"/>
       </characteristics>
     </profile>
-    <profile id="d9f7-775b-1047-f335" name="Krak Grenade" book="" hidden="false" profileTypeId="57616c6b657223232344415441232323" profileTypeName="Walker">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="WS" characteristicTypeId="575323232344415441232323"/>
-        <characteristic name="BS" characteristicTypeId="425323232344415441232323"/>
-        <characteristic name="S" characteristicTypeId="5323232344415441232323"/>
-        <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323"/>
-        <characteristic name="Side" characteristicTypeId="5369646523232344415441232323"/>
-        <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323"/>
-        <characteristic name="I" characteristicTypeId="4923232344415441232323"/>
-        <characteristic name="A" characteristicTypeId="4123232344415441232323"/>
-        <characteristic name="HP" characteristicTypeId="485023232344415441232323"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
-      </characteristics>
-    </profile>
-    <profile id="fc49-7c79-dd0e-215f" name="Krak Grenade" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+    <profile id="d9f7-775b-1047-f335" name="Krak Grenade" book="BRB 7th" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12482,6 +12918,15 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="4"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1"/>
+      </characteristics>
+    </profile>
+    <profile id="f095-0842-a6b1-5404" name="Jump Pack" book="BRB 7th" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Confers Jump Unit rules.  "/>
       </characteristics>
     </profile>
   </sharedProfiles>
