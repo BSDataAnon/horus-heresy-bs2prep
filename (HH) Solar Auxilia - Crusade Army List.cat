@@ -4569,7 +4569,7 @@
                     <cost name="pts" costTypeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="b5b5bc53-02f0-596c-28ec-7e659ce2e981" name="Quad Mortar" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="b5b5bc53-02f0-596c-28ec-7e659ce2e981" name="Quad Mortar (frag &amp; shatter shells)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
